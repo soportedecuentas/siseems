@@ -1,0 +1,986 @@
+@charset "utf-8";
+
+/******* Estilos para Formulario *******/
+.cajaTexto {
+	border:1px solid #969696;
+	background-image:url(image/form/inputFondo.png);
+	background-repeat:repeat-x;
+	background-position:0 -6px;
+	height:24px;
+	padding:3px 0px 2px 0px;
+	vertical-align:middle;
+	
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+input {
+ 	/*text-transform:uppercase;*/
+}
+.minusculas {
+ 	text-transform:lowercase;
+}
+
+.nocambias {
+	text-transform:none;
+}
+
+
+.tablaEstilo {
+	border:1px solid #C0C0C0; 
+}
+
+.tdEstilo {
+	padding:0px 5px 0px 5px;
+	height:22px;
+}
+
+ul,li {
+	width:auto;
+}
+
+/******* Encabezado *******/
+.Header {
+	height:110px;
+}
+.menusuperpuesto{
+	z-index: 9999;
+}
+
+
+body {
+    background: url("image/fondoMotivo.jpg") repeat scroll 0 0 #ffffff;
+    color: #000000;
+}
+
+.logoInstitucion {
+	
+	
+	
+	/*width:350px;*/
+	height:84px;
+	width:350px;
+	background-size: 285px;
+
+	background-image:url("image/sirma-sep.png");
+	background-repeat:no-repeat;       
+}
+
+.seccionUsuario {
+	height:22px;
+	/*background-color:#f0ffe1;*/
+	padding:2px 7px 2px 7px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.contenidoUsuario {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#FFFFFF;
+	vertical-align:middle;
+}
+
+.contenidoUsuario a {
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+.contenidoUsuario a:hover {
+	color:#004000;
+	text-decoration:underline;
+}
+
+.seccionBanner {
+	height:88px;
+	padding:10px 10px 10px 20px;
+	
+	font-family: "Trebuchet MS", "Arial", sans-serif;
+	font-size:14px;
+	font-weight:normal;
+	color:#005500;
+}
+
+.lineArtHeader {
+	height:3px;
+	background-image:url(image/lineArtHeader.jpg);
+	background-repeat:repeat-x;
+}
+
+/******* Cuerpo *******/
+.cuerpoPagina {
+	margin:0;
+}
+
+th, td {
+	color: #004000;
+	font-family: "Verdana", "Arial", sans-serif;
+	font-size: 11px;	
+}
+
+a {
+	color: #004000;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #002d00;
+	text-decoration: underline;
+}
+
+a.on {
+	color: #004000;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a img {
+	border-style:none;
+}
+
+a:hover img {
+	border-style:none;
+}
+
+h3 {
+	font-family: "Trebuchet MS", "Arial", sans-serif;
+	font-size:16px;
+	font-weight:normal;
+	color:#808080;
+}
+
+.tablaEstructura {
+	width:100%;
+	height:100%;
+}
+
+.barraLateral .componente {
+	border: none;
+	border-top: 1px solid #BCB8B6;
+	margin-bottom: 10px;
+}
+
+.barraLateral, .barraLateral-pie {
+	color:#666666;
+	background-color:#F9F9F9;
+	border-right:1px solid #BCB8B6;
+	margin:0px;
+	padding:0px 0px 25px 0px;
+	width:190px;
+	height:100%;
+	font-size: 11px;
+}
+
+.barraLateral-pie {
+	border-bottom:1px solid #BCB8B6;
+}
+
+.barraLateral H3 {
+	color:#575757;
+	background-color:#E6E6E6;
+	font-family:"Trebuchet MS", "Arial", sans-serif;
+	font-size:13px;
+	font-weight:normal;
+	
+	margin: 0px;
+	padding: 4px 4px 5px 11px;
+	
+	border: none;
+	border-top: 1px solid #FFFFFF;
+	border-left: 1px solid #FFFFFF;
+}
+
+.barraLateral ul {
+	list-style-type:  none;
+	list-style-position: outside;
+	list-style-image: url('image/bulletArrow.gif');
+	margin: 0px 5px 0px 0px;
+	padding: 7px 0px 0px 27px;
+	border: none;
+	font-size: 11px;
+}
+
+.barraLateral ul ul {
+	list-style-type:  none;
+	list-style-position: outside;
+	list-style-image: url('image/bulletArrow.gif');
+	margin: 6px 0px 0px 0px;
+	padding: 0px 0px 10px 16px;
+	border: none;
+}
+
+.barraLateral ul li {
+	margin: 0px;
+	padding: 0px 0px 6px 0px;
+}
+
+.barraLateral ul ul li {
+	margin: 0px;
+	padding: 0px 0px 2px 0px;
+}
+
+.contenedorGral {
+	padding:7px 7px 7px 7px;
+}
+
+.contenedorMenu {
+	height:24px;
+	background:#EEEEEE;
+}
+
+.tituloAplicacion {
+	font-family: "Trebuchet MS", "Arial", sans-serif;
+	font-size:18px;
+	color:#005b00;
+	font-weight:normal;
+	text-align:left;
+	padding:0px 0px 3px 7px;
+
+	border-bottom:1px dotted #006c00;
+}
+
+.nombreAplicacion {
+	font-family: "Trebuchet MS", "Arial", sans-serif;
+	font-size:36px;
+	color:#005500;
+	font-weight:normal;
+}
+
+.nombreAplicacionCompleto {
+	font-family: "Trebuchet MS", "Arial", sans-serif;
+	font-size:14px;
+	color:#007700;
+	font-weight:normal;
+}
+
+.limpiar {
+	clear: both;
+}
+
+.tablaBorde {
+	border:1px solid #818181;
+}
+
+.tablaGrid {
+	border:solid;
+	border-width:1px;
+	border-color:#ABABAB;
+}
+
+.tablaGridHeader {
+	background:#ABABAB;
+	height:22;
+}
+
+.tablaGridHeader {
+	border-right: 1px solid #C1C1C1;
+	border-bottom: 1px solid #C1C1C1;
+	padding: 0 6px;
+	float: none !important; /*Para Opera*/
+	float: left; /*Para IE*/
+	background: #EEEEEE;
+	color: #424242;
+	font: bold 10px/22px Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	height: auto !important;
+	height: 23px; /*Para IE*/
+}
+
+.tablaGridItemStyle {
+	height:22px;
+	text-align:left;
+}
+
+.tablaGridAItemStyle {
+	height:22px;
+	background-color:#EBEBEB;
+	text-align:left;
+}
+
+.tablaEncabezadoColumna {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#D6D6D6;
+	vertical-align:middle;
+	text-align:center;
+	padding:5px 5px 5px 55px;
+	margin:30;
+	background-color:#6C6C6C;
+}
+
+fieldset {
+	border:1px solid #C0C0C0;
+}
+
+fieldset legend {
+	font:bold 12px Arial, Helvetica, sans-serif;
+}
+
+fieldset div {
+	margin:5;
+}
+
+select {
+	border:1px solid #C0C0C0;
+	font:normal 12px Arial, Helvetica, sans-serif;
+}
+
+.parrafo {
+	font:normal 14px Arial, Helvetica, sans-serif;
+}
+
+
+.botonLink {
+  padding: 10px 0;
+}
+
+.botonLink a {
+  color: #666;
+  padding: 10px 15px 10px 36px;
+  background: #ccc url("image/Mal.png") no-repeat 15px 50%;
+  border-top: 1px solid #e2e2e2;
+  border-right: 1px solid #818181;
+  border-bottom: 1px solid #565656;
+  border-left: 1px solid #d7d7d7;
+}
+
+.botonLink a:hover {
+  color: #444;
+  background: #eee url("image/Mal.png") no-repeat 15px 50%;
+  border-top: 1px solid #f5f5f5;
+  border-right: 1px solid #969696;
+  border-bottom: 1px solid #646464;
+  border-left: 1px solid #f2f2f2;
+}
+
+.indicaciones {
+	font:normal 10px Arial, Helvetica, sans-serif;
+}
+
+/******* Pie *******/
+.Foot {
+	height:24px;
+}
+
+.pieA {
+	width:24px;
+	/*background-color:#FFCC66;*/
+	background-color:#008000;
+}
+
+.pieB {
+	/*background-color:#FF9933;*/
+	background-color:#005b00;
+}
+
+.pieC {
+	width:24px;
+	/*background-color:#ffb74d;*/
+	background-color:#008c00;
+}
+
+.pieD {
+	width:24px;
+	/*background-color:#ffc97a;*/
+	background-color:#008000;
+}
+
+.menuFix {
+	float:left;
+	position:relative;
+	z-index:100;
+}
+/********* Menu Horizontal *********/
+
+/* Root = Horizontal, Secondary = Vertical */
+ul#navmenu-h {
+  margin: 0;
+  border: 0 none;
+  padding: 0;
+  width: 700px; /*For KHTML*/
+  list-style: none;
+  height: 24px;
+}
+
+ul#navmenu-h li {
+  margin: 0;
+  border: 0 none;
+  padding: 0;
+  float: left; /*For Gecko*/
+  display: inline;
+  list-style: none;
+  position: relative;
+  height: 24px;
+}
+
+ul#navmenu-h ul {
+  margin: 0;
+  border: 0 none;
+  padding: 0;
+  width: 160px;
+  list-style: none;
+  display: none;
+  position: absolute;
+  top: 24px;
+  left: 0;
+}
+
+ul#navmenu-h ul:after /*From IE 7 lack of compliance*/{
+  clear: both;
+  display: block;
+  font: 1px/0px serif;
+  content: ".";
+  height: 0;
+  visibility: hidden;
+}
+
+ul#navmenu-h ul li {
+  width: 160px;
+  float: left; /*For IE 7 lack of compliance*/
+  display: block !important;
+  display: inline; /*For IE*/
+}
+
+/* Root Menu */
+ul#navmenu-h a {
+  border: 1px solid #FFF;
+  border-right-color: #CCC;
+  border-bottom-color: #CCC;
+  padding: 0 6px;
+  float: none !important; /*For Opera*/
+  float: left; /*For IE*/
+  display: block;
+  
+  /*background: #EEE;*/
+   background: url("image/fondo_menu.png") no-repeat scroll left top transparent;
+  
+  color: #666;
+  font: bold 10px/22px Verdana, Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  height: auto !important;
+  height: 1%; /*For IE*/
+}
+
+/* Root Menu Hover Persistence */
+ul#navmenu-h a:hover,
+ul#navmenu-h li:hover a,
+ul#navmenu-h li.iehover a {
+  background: #CCC;
+  color: #FFF;
+}
+
+/* 2nd Menu */
+ul#navmenu-h li:hover li a,
+ul#navmenu-h li.iehover li a {
+  float: none;
+  background: #EEE;
+  color: #666;
+}
+
+/* 2nd Menu Hover Persistence */
+ul#navmenu-h li:hover li a:hover,
+ul#navmenu-h li:hover li:hover a,
+ul#navmenu-h li.iehover li a:hover,
+ul#navmenu-h li.iehover li.iehover a {
+  background: #CCC;
+  color: #FFF;
+}
+
+/* 3rd Menu */
+ul#navmenu-h li:hover li:hover li a,
+ul#navmenu-h li.iehover li.iehover li a {
+  background: #EEE;
+  color: #666;
+}
+
+/* 3rd Menu Hover Persistence */
+ul#navmenu-h li:hover li:hover li a:hover,
+ul#navmenu-h li:hover li:hover li:hover a,
+ul#navmenu-h li.iehover li.iehover li a:hover,
+ul#navmenu-h li.iehover li.iehover li.iehover a {
+  background: #CCC;
+  color: #FFF;
+}
+
+/* 4th Menu */
+ul#navmenu-h li:hover li:hover li:hover li a,
+ul#navmenu-h li.iehover li.iehover li.iehover li a {
+  background: #EEE;
+  color: #666;
+}
+
+/* 4th Menu Hover */
+ul#navmenu-h li:hover li:hover li:hover li a:hover,
+ul#navmenu-h li.iehover li.iehover li.iehover li a:hover {
+  background: #CCC;
+  color: #FFF;
+}
+
+ul#navmenu-h ul ul,
+ul#navmenu-h ul ul ul {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 160px;
+}
+
+/* Do Not Move - Must Come Before display:block for Gecko */
+ul#navmenu-h li:hover ul ul,
+ul#navmenu-h li:hover ul ul ul,
+ul#navmenu-h li.iehover ul ul,
+ul#navmenu-h li.iehover ul ul ul {
+  display: none;
+}
+
+ul#navmenu-h li:hover ul,
+ul#navmenu-h ul li:hover ul,
+ul#navmenu-h ul ul li:hover ul,
+ul#navmenu-h li.iehover ul,
+ul#navmenu-h ul li.iehover ul,
+ul#navmenu-h ul ul li.iehover ul {
+  display: block;
+}
+
+ul.menu
+{
+ list-style:none;
+}
+ul.menu li
+{
+ display:block;
+ position:relative;
+ padding:1px 5px;
+  border: 1px solid #FFF;
+  border-right-color: #CCC;
+  border-bottom-color: #CCC;
+  padding: 0 6px;
+  float: none !important; /*For Opera*/
+  float: left; /*For IE*/
+  display: block;
+  background: #EEE;
+ width:80px;
+}
+ul.menu ul
+{
+ position:absolute;
+ left:51px;
+ top:-1px;
+ display:none;
+ list-style:none;
+}
+ul.menu > li > ul
+{
+ position:absolute;
+ left:-41px;
+ top:19px;
+ display:none;
+ list-style:none;
+}
+
+ul.menu li:hover
+{
+ background:#CCC;
+ border-right:1px solid #FFF;
+ border-bottom:1px solid #EEE;
+ border-top:1px solid #EEE;
+ border-left:1px solid #EEE;
+}
+ul.menu li:hover > ul
+{
+display:block;
+}
+ul.menu > li
+{
+ display:inline;
+}
+
+/**** Para errores en los controles *********/
+
+.error{
+	brackground-color:red;
+}
+
+/********* Menu Horizontal *********/
+
+/* Root = Horizontal, Secondary = Vertical */
+ul#navmenu-a {
+  margin: 0;
+  border: 0 none;
+  padding: 0;
+  width: 650px; /*For KHTML*/
+  list-style: none;
+  height: 24px;
+}
+
+ul#navmenu-a li {
+  margin: 0;
+  border: 0 none;
+  padding: 0;
+  float: left; /*For Gecko*/
+  display: inline;
+  list-style: none;
+  position: relative;
+  height: 24px;
+}
+
+ul#navmenu-a ul {
+  margin: 0;
+  border: 0 none;
+  padding: 0;
+  width: 160px;
+  list-style: none;
+  display: none;
+  position: absolute;
+  top: 24px;
+  left: 0;
+}
+
+ul#navmenu-a ul:after /*From IE 7 lack of compliance*/{
+  clear: both;
+  display: block;
+  font: 1px/0px serif;
+  content: ".";
+  height: 0;
+  visibility: hidden;
+}
+
+ul#navmenu-a ul li {
+  width: 160px;
+  float: left; /*For IE 7 lack of compliance*/
+  display: block !important;
+  display: inline; /*For IE*/
+}
+
+/* Root Menu */
+ul#navmenu-a a {
+  border: 1px solid #FFF;
+  border-right-color: #CCC;
+  border-bottom-color: #CCC;
+  padding: 0 6px;
+  float: none !important; /*For Opera*/
+  float: left; /*For IE*/
+  display: block;
+  background: #EEE;
+  color: #666;
+  font: bold 10px/22px Verdana, Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  height: auto !important;
+  height: 1%; /*For IE*/
+}
+
+/* Root Menu Hover Persistence */
+ul#navmenu-a a:hover,
+ul#navmenu-a li:hover a,
+ul#navmenu-a li.iehover a {
+  background: #CCC;
+  color: #FFF;
+}
+
+/* 2nd Menu */
+ul#navmenu-a li:hover li a,
+ul#navmenu-a li.iehover li a {
+  float: none;
+  background: #EEE;
+  color: #666;
+}
+
+/* 2nd Menu Hover Persistence */
+ul#navmenu-a li:hover li a:hover,
+ul#navmenu-a li:hover li:hover a,
+ul#navmenu-a li.iehover li a:hover,
+ul#navmenu-a li.iehover li.iehover a {
+  background: #CCC;
+  color: #FFF;
+}
+
+/* 3rd Menu */
+ul#navmenu-a li:hover li:hover li a,
+ul#navmenu-a li.iehover li.iehover li a {
+  background: #EEE;
+  color: #666;
+}
+
+/* 3rd Menu Hover Persistence */
+ul#navmenu-a li:hover li:hover li a:hover,
+ul#navmenu-a li:hover li:hover li:hover a,
+ul#navmenu-a li.iehover li.iehover li a:hover,
+ul#navmenu-a li.iehover li.iehover li.iehover a {
+  background: #CCC;
+  color: #FFF;
+}
+
+/* 4th Menu */
+ul#navmenu-a li:hover li:hover li:hover li a,
+ul#navmenu-a li.iehover li.iehover li.iehover li a {
+  background: #EEE;
+  color: #666;
+}
+
+/* 4th Menu Hover */
+ul#navmenu-a li:hover li:hover li:hover li a:hover,
+ul#navmenu-a li.iehover li.iehover li.iehover li a:hover {
+  background: #CCC;
+  color: #FFF;
+}
+
+ul#navmenu-a ul ul,
+ul#navmenu-a ul ul ul {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 160px;
+}
+
+/* Do Not Move - Must Come Before display:block for Gecko */
+ul#navmenu-a li:hover ul ul,
+ul#navmenu-a li:hover ul ul ul,
+ul#navmenu-a li.iehover ul ul,
+ul#navmenu-a li.iehover ul ul ul {
+  display: none;
+}
+
+ul#navmenu-a li:hover ul,
+ul#navmenu-a ul li:hover ul,
+ul#navmenu-a ul ul li:hover ul,
+ul#navmenu-a li.iehover ul,
+ul#navmenu-a ul li.iehover ul,
+ul#navmenu-a ul ul li.iehover ul {
+  display: block;
+}
+
+
+
+/*///////////////////////////////////////////////*/
+ 
+
+ 
+#mytable {
+	width: 700px;
+	padding: 0;
+	margin: 0;
+}
+
+caption {
+	padding: 0 0 5px 0;
+	width: 700px;	 
+	font: italic 10px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	text-align: right;
+}
+.texto_1{font: italic 10px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; background: #CAE8EA url(images/bg_header.html) no-repeat;}
+.boton {
+     border: 1px solid #000000;
+     color: ;
+     font-size: xx-small;
+     font-family: arial;
+     font-style: normal;
+     font-weight: ;
+     padding: 1px;
+}
+.seleccion {
+     background-color: #FFFFFF;
+     border: 1px solid #000000;
+     color: ;
+     font-size: xx-small;
+     font-family: arial;
+     font-style: normal;
+     font-weight: ;
+     padding: 1px;
+}
+.calendario th {
+	font: bold 9px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: #4f6b72;
+	border-right: 1px solid #C1DAD7;
+	border-bottom: 1px solid #C1DAD7;
+	border-top: 1px solid #C1DAD7;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-align: left;
+	padding: 6px 6px 6px 12px;
+	background: #CAE8EA url(images/bg_header.html) no-repeat;
+}
+
+.calendario th.nobg {
+	border-top: 0;
+	border-left: 0;
+	border-right: 1px solid #C1DAD7;
+	background: none;
+}
+
+.calendario td {
+	border-right: 1px solid #C1DAD7;
+	border-bottom: 1px solid #C1DAD7;
+	background: #fff;
+	padding: 6px 6px 6px 12px;
+	color: #4f6b72;
+	font: bold 10px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+}
+.calendario td.hoy {
+	border-right: 1px solid #C1DAD7;
+	border-bottom: 1px solid #C1DAD7;
+	background: #b4c7cb;
+	padding: 6px 6px 6px 12px;
+	color: #ffffff;
+	font: bold 10px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+}
+
+.calendario td.alt {
+	background: #F5FAFA;
+	color: #797268;
+}
+.calendario td.dialaboral {
+	background: #0066CC;
+	color: #797268;
+}
+.calendario td.diafestivo {
+	background: #46DB06;
+	color: #797268;
+}
+
+.calendario  th.spec {
+	border-left: 1px solid #C1DAD7;
+	border-top: 0;
+	background: #fff url(images/bullet1.html) no-repeat;
+	font: bold 9px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+}
+
+.calendario th.specalt {
+	border-left: 1px solid #C1DAD7;
+	border-top: 0;
+	background: #f5fafa url(images/bullet2.html) no-repeat;
+	font: bold 9px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: #797268;
+}
+
+
+.calendario_div
+{
+	float: left;
+	width:330px;
+}
+.actividades_div
+{
+	float: left;
+	width:380px;
+ 
+}
+ 
+
+
+.calendar{
+ margin: 0;
+  padding: 0;
+  font-size: 12px;
+  font-family: "Verdana", "Tahoma", "Arial", sans-serif;
+  /* font-family: "Verdana", "Tahoma", "Arial" sans-serif; */
+  /* font-family:'gill sans','trebuchet ms', verdana, sans-serif; */
+  color: #555;
+  background-color:          #f2f2f2;
+  border:                    2px solid #000000;
+  margin:                    0 20px;
+  }
+.evento.hourlabel{
+	background-color:          #FFFFFF;
+	width: 75px;
+}
+.evento.green {
+background:none repeat scroll 0 0 #E6FFDF;
+border:1px solid #C9E6C1;
+color:#6EA85F;
+}
+.evento.blanco {
+-moz-border-radius:4px 4px 4px 4px;
+background: none repeat scroll 0 0 #F4F4F4;
+background-color:          #FFFFFF;
+border:1px solid #EEEEEE;
+list-style:none outside none;
+margin:5px;
+padding:4px 7px;
+}
+.evento.add{
+background-image: url('image/calendario/nuevoevento.html'); 
+border:1px solid #C9E6C1; 	
+}
+
+
+/*************** ckeditor */
+/*
+Copyright (c) 2003-2010, CKSource - Frederico Knabben. All rights reserved.
+For licensing, see LICENSE.html or http://ckeditor.com/license
+*/
+
+fieldset
+{
+	margin: 0;
+	padding: 10px;
+}
+
+form
+{
+	margin: 0;
+	padding: 0;
+}
+
+pre
+{
+	background-color: #F7F7F7;
+	border: 1px solid #D7D7D7;
+	overflow: auto;
+	margin: 0;
+	padding: 0.25em;
+}
+
+#alerts
+{
+	color: Red;
+}
+
+#footer hr
+{
+	margin: 10px 0 15px 0;
+	height: 1px;
+	border: solid 1px gray;
+	border-bottom: none;
+}
+
+#footer p
+{
+	margin: 0 10px 10px 10px;
+	float: left;
+}
+
+#footer #copy
+{
+	float: right;
+}
+
+#outputSample
+{
+	width: 100%;
+	table-layout: fixed;
+}
+
+#outputSample thead th
+{
+	color: #dddddd;
+	background-color: #999999;
+	padding: 4px;
+	white-space: nowrap;
+}
+
+#outputSample tbody th
+{
+	vertical-align: top;
+	text-align: left;
+}
+
+#outputSample pre
+{
+	margin: 0;
+	padding: 0;
+	white-space: pre; /* CSS2 */
+	white-space: -moz-pre-wrap; /* Mozilla*/
+	white-space: -o-pre-wrap; /* Opera 7 */
+	white-space: pre-wrap; /* CSS 2.1 */
+	white-space: pre-line; /* CSS 3 (and 2.1 as well, actually) */
+	word-wrap: break-word; /* IE */
+}
